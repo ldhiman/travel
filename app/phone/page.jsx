@@ -1,11 +1,5 @@
-import React from 'react'
-import PhoneInput from "react-phone-input-2"
-import "react-phone-input-2/lib/style.css"
+import React from "react";
 
 export default function PhoneSignin() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div>Phone</div>;
 }
