@@ -1,10 +1,4 @@
 env:
-  - variable: STORAGE_BUCKET
-    value: travel-agency-18664.appspot.com
-    availability:
-      - BUILD
-      - RUNTIME
-
   - varaiable: NEXT_PUBLIC_GOOGLE_API_KEY
     value: AIzaSyCYhHwbgQAdJFtix9557w8FthvcMuPbPXQ
     availability:
