@@ -15,3 +15,15 @@ env:
 
   - variable: NEXT_PUBLIC_GOOGLE_API_KEY
     secret: AIzaSyCYhHwbgQAdJFtix9557w8FthvcMuPbPXQ&libraries=places
+
+    # Same as API_KEY above but with a pinned version.
+  - variable: PINNED_API_KEY
+    secret: AIzaSyCYhHwbgQAdJFtix9557w8FthvcMuPbPXQ&libraries=places@5
+
+    # Same as API_KEY above but with the long form secret reference as defined by Cloud Secret Manager.
+  - variable: VERBOSE_API_KEY
+    secret: projects/test-project/secrets/secretID
+
+    # Same as API_KEY above but with the long form secret reference with pinned version.
+  - variable: PINNED_VERBOSE_API_KEY
+    secret: projects/test-project/secrets/secretID/versions/5
